@@ -15,7 +15,7 @@
     #OPERATOR LOGIKA (AND OR) (&& ||)
 
     $username = "admin";
-    $Pass = "5555";
+    $Pass = "12345";
 
     if($username == "admin" && $Pass == "12345"){
         echo "login Berhasil";
