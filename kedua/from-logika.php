@@ -38,8 +38,8 @@ if(isset($_POST['tbl'])){
             </tr>
             <tr>
                 <td></td>
-             <td><button type="submit" name="tbl">Log In</button></td>
-             </tr>
+                <td><button type="submit" name="tbl">Log In</button></td>
+                </tr>
         </table>
     </form>
 </body>
