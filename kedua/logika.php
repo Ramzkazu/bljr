@@ -27,15 +27,6 @@
         echo "Salah Semua ON OL";
     }
 
-    
-
-
-
-
-
-
-
-
     // $nama = "Ramz";
     // $nilai = 40;
 
@@ -48,10 +39,6 @@
     // }else{
     //     echo "ON OL";
     // }
-        
-
-
-
 
     // if($nilai >60){
     //     echo"Kamu Lulus";
@@ -64,6 +51,45 @@
     //     echo " Harus Ikut Remedial";
     // }
 
+    echo "<hr>";
+    // switch 
+
+    $hari = 5;
+    switch($hari){
+        case 1:
+        echo "Hari Minggu";
+        break;
+        
+        case 2:
+            echo "Hari Senin";
+            break;
+        
+        case 3:
+            echo "Hari Selasa";
+            break;
+
+        case 4:
+            echo "Hari Rabu";
+            break;
+            
+        case 5:
+            echo "Hari Kamis";
+            break;
+
+        case 6:
+            echo "Hari Jum'at";
+            break;
+            
+        case 7:
+            echo "Hari Sabtu";
+            break;
+
+        default:
+            echo "Tidak Ada Hari";
+            break;
+    }
+
     ?>
+    
 </body>
 </html>
