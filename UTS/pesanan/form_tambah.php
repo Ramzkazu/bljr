@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Siswa</title>
+    <title>Orderr Tracker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
@@ -24,23 +24,23 @@
                     <div class="card-body">
                         <form action="proses_tambah.php" method="POST" enctype="multipart/form-data">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Nama Pelanggan/label>
+                                <label for="exampleInputEmail1" class="form-label">Nama Pelanggan</label>
                                 <input name="nama_pelanggan" type="text" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Produk/label>
-                                <input name="produkk" type="text" class="form-control" id="exampleInputEmail1"
+                                <label for="exampleInputEmail1" class="form-label">Produk</label>
+                                <input name="produk" type="text" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Jumlah/label>
+                                <label for="exampleInputEmail1" class="form-label">Jumlah</label>
                                 <input name="jumlah" type="number" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Tanggal Pesan/label>
-                                <input name="tanggal_pesan" type="text" class="form-control" id="exampleInputEmail1"
+                                <label for="exampleInputEmail1" class="form-label">Tanggal Pesan</label>
+                                <input name="tanggal_pesan" type="date" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
                             
