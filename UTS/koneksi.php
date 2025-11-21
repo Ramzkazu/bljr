@@ -4,5 +4,5 @@
     $password = "";
     $db = "ordertraker";
 
-    $koneksi = mysqli_connect($host, $username, $password, $ordertraker);
+    $koneksi = mysqli_connect($host, $username, $password, $db);
 ?>
