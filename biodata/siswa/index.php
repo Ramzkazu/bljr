@@ -24,7 +24,7 @@
                 <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                     <div class="card-header">
                         <b>BIODATA SISWA</b>
-                        <a href="formedit.php" class="float-end btn btn-primary btn-sm"><i class="fa-solid fa-user-plus"></i> Tambah data</a>
+                        <a href="form_tambah.php" class="float-end btn btn-primary btn-sm"><i class="fa-solid fa-user-plus"></i> Tambah data</a>
                     </div>
                     <div class="card-body">
                         <table class="table">
@@ -74,6 +74,9 @@
                                             <div class="modal-body">
                                                 <table class="table">
                                                 <tbody>
+                                                    <tr>
+                                                        <td colspan="2"><img src="../foto/<?=$data['foto']?>" height="150" alt=""><td></td>Foto</td>
+                                                    </tr>
                                                     <tr>
                                                         <td>Nama</td>
                                                         <th scope="row"><?=$data['nama']?></th>

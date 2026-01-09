@@ -46,7 +46,7 @@ if (!$data) {
                         <b>FORM EDIT PELANGGAN</b>
                     </div>
                     <div class="card-body">
-                        <form action="proses_tambah.php" method="POST">
+                        <form action="proses_.php" method="POST">
                             <input type="hidden" name="id_pesanan" value="<?=$data['id_pesanan']?>">
                             
                             <div class="mb-3">
