@@ -29,7 +29,8 @@ $data = mysqli_fetch_array($edit);
                         <b>FORM EDIT BIODATA SISWA</b>
                     </div>
                     <div class="card-body">
-                        <form action="proses_tambah.php" method="POST" enctype="multipart/form-data">
+                        <form action="proses_edit.php" method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="id" value="<?=$data['id']?>">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
                                 <input value="<?=$data['nama']?>" name="nama" type="text" class="form-control" id="exampleInputEmail1"
