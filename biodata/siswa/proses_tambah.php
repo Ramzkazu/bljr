@@ -17,7 +17,7 @@
     $tmp_foto = $_FILES['foto']['tmp_name'];
 
     #proses tambah data
-    $query = "INSERT INTO biodata (nama,nisn,tp_lahir,tgl_lahir,alamat,email,jk,jur,foto)
+    $query = "INSERT INTO biodata (nama,nisn,tp_lahir,tgl_lahir,alamat,email,jk,jurusans_id,foto)
     VALUES ('$nama','$nisn','$tp_lahir','$tgl_lahir','$alamat','$email','$jk','$jur','$nama_ft')";
     
     $tambah = mysqli_query($koneksi, $query);

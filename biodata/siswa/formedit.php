@@ -75,19 +75,29 @@ $data = mysqli_fetch_array($edit);
                                     <label class="form-check-label" for="inlineRadio2">Perempuan</label>
                                 </div>
                             </div>
-                            <div class="mb-3">
+                                <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Jurusan</label>
                                 <select class="form-control" name="jur" id="">
                                     <option value="">-Pilih Jurusan-</option>
-                                    <option value="IPA">IPA</option>
-                                    <option value="IPS">IPS</option>
-                                    <option value="Bahasa">Bahasa</option>
+                                    <?php
+                                        //Kode untuk looping jurusan
+                                        include_once('../koneksi.php');
+                                        $qry_jur = "SELECT * FROM jurusan";
+                                        $data_jur = mysqli_query($koneksi, $qry_jur);
+                                        foreach($data_jur as $item_jur){
+                                    ?>
+                                    <option <?php echo $data['jurusans_id'] == $item_jur['id'] ? 'selected' : '' ?> value="<?=$item_jur['id']?>"><?=$item_jur['kode']?> - <?=$item_jur['nama_jurusan']?></option>
+                                    <?php
+                                        //penutup looping jurusan
+                                        }
+                                    ?>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Foto</label>
-                                <input name="foto" type="file" class="form-control" id="exampleInputEmail1"
+                                <input name="foto" type="file" accept="image/*" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Abaikan jika foto tidak diubah</div>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
