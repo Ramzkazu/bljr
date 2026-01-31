@@ -33,7 +33,7 @@
         #hapus foto
         // $lokasi_foto = "../fotosiswa/$nama_foto";
         // if(file_exists($lokasi_foto)){
-        //     unlink($lokasi_foto);
+        //     unlink($lokasi_foto);   
         // }
 
         #tambahkan foto

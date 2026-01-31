@@ -68,6 +68,30 @@
                                 </div>
                             </div>
                             <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Gelombang</label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gelombang"
+                                        id="inlineRadio1" value="1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gelombang"
+                                        id="inlineRadio2" value="2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gelombang"
+                                        id="inlineRadio2" value="3">
+                                    <label class="form-check-label" for="inlineRadio2">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gelombang"
+                                        id="inlineRadio2" value="4">
+                                    <label class="form-check-label" for="inlineRadio2">4</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Jurusan</label>
                                 <select class="form-control" name="jur" id="">
                                     <option value="">-Pilih Jurusan-</option>

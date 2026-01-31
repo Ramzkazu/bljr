@@ -105,6 +105,11 @@
                                                     </tr>
                                                     <tr>
                                                     <tr>
+                                                        <td>Jurusan</td>
+                                                        <th scope="row"><?=$data['nama_jurusan']?></th>
+                                                    </tr>
+                                                    <tr>
+                                                    <tr>
                                                         <td>Jenis Kelamin</td>
                                                         <th scope="row"><?=$data['jk']?></th>
                                                     </tr>
