@@ -17,6 +17,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/bljr/biodata/dosen/">Dosen</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/bljr/biodata/gelombang/">Gelombang</a>
+                </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
